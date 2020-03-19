@@ -1,0 +1,141 @@
+
+.App {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  background-color: #ffffff;
+  width:auto;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.player1 {
+  margin-top: auto 0;
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+  color:#1f4700;
+
+}
+.board-container{
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+.board-body{
+  width: 500px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+.board::after{
+  clear: both;
+  content: "";
+  display: table;
+  
+}
+.squareButton {
+  display: table-cell;
+  left: 50%;
+  top: 50%;
+  transform: translate(54%, -86%);
+  background:linear-gradient(-180deg,	#e3fcf1,	#c3f4e9,		#a3ece1,		#83e4d9,	#63dcd1);
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 24px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+  width: 120px;
+  border-radius: 25px;
+  cursor: pointer;
+  
+}
+
+.player2{
+  margin-top: auto 0;
+  display: block;
+  width: 600px;
+  text-align: center;
+  color:#0c4c83;
+ 
+}
+.player-name{
+ display: flex;
+ margin-top: 60px;
+ margin-left: auto;
+ justify-content: center;
+}
+
+.Symbol{
+  position: relative;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+.button{
+  position: relative;
+  display: inline-grid;
+  flex-direction: column;
+  height:100px;
+}
+.submit{
+  margin-top: 30px;
+}
+.status{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  color:#020;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 500;
+  top: -20%;
+}
+
+.Button{
+  margin-top: 20px;
+}
+.your-symbol{
+ position: relative;
+ top:15%;
+}
+.Score-board{
+  position: relative;
+  width: 400px;
+  height: 415px;
+  top: 26%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.Score-board h1 {
+  position: relative;
+  font-weight: 600;
+  color:rgba(231, 90, 8, 0.856);
+}
+.table-data{
+  position: relative; 
+} 
+.new-game{
+  position: relative;
+  top: -20%;
+  left: 30%;
+  transform: translate(-50%, -500%);
+}
+.restart-game{
+  position: relative;
+  top: -20%;
+  left: 50%;
+  transform: translate(-50%, -500%);
+}
